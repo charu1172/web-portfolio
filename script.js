@@ -10,5 +10,5 @@ function togglemenu(){
     imgsidebar.classList.toggle('active')
     img2.classList.toggle('active')
     img3.classList.toggle('active')
-
 }
+

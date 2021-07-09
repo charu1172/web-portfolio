@@ -1,150 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web portfolio</title>
+    <title>Charu Khemka</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel='stylesheet' href='style.css'>
 </head>
 
 <body>
     <div class="toggle" onclick="togglemenu();"></div>
 
-   <section class='banner' id='home'>
+   
+   <div id="particles-js"></div>
+    <section class='banner' id='home'> 
         
-     <div class='contentbox'>
+        <div class="imgg">
+            <div class='contentbox'>
+    
+                <div class="first">
+                    <h2 class="name_h2">Charu Khemka</h2>
+                </div>
 
-            <div class="first">
-                <h2>Charu Khemka</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque excepturi ab ullam quisquam impedit enim.
-                    dolor sit amet consectetur adipisicing elit. Neque excepturi ab ullam quisquam impedit enim
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque excepturi ab ullam quisquam impedit enim.
-                </p>
-            </div>
-
-      <ul class='sci homesci'>
-            <!-- social media icons -->
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
-        </ul>  
-
+                <ul class='sci homesci'>
+                    <!-- social media icons -->
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </ul>
+            </div>  
+        
     </div>
     </section>
-    
-   <section class='about' id='about'>  <!--about section start -->
-    
+
+
+    <section class='about' id='about'>
+        <!--about section start -->
+
         <div class="title white">
             <h2>About Me</h2>
         </div>
 
         <div class="content">
-             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae 
-                 optio illum quo esse atque nulla illo eius. Dicta ad architecto 
-                 dolorum perspiciatis sint ab iure fugiat distinctio iste, 
-                 maiores adipisci Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                elit. Sapiente aut omnis quis corrupti quam explicabo 
-                in at, quibusdam necessitatibus deleniti rerum hic 
-                dolorem! Maiores, alias quas commodi id minima debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, necessitatibus molestias. Expedita architecto, commodi iusto nisi minus soluta nobis itaque!</p>
+            <p> A CSE undergrad student with a strong interest in full stack development, business and data analytics. Looking
+                for opportunities that would help me grow professionally while contributing to the organization.
+            </p>
+            <p>Currently invested in working on Web development projects and exploring the breakthrough Blockchain
+                Technology and Cryptocurrency</p>
         </div>
 
-    </section>  <!-- about section end -->
-
-   <section class="skills" id="skills">  <!-- skills section start -->
-      
-       <div class="title white">
-            <h2>WORK</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, obcaecati!</p>
+        
+        <div class="techskills_cont">
+            <h1 class="techstack_title">Technical Skills</h1>
+            <div class="techskills">
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/></i><span>HTML</span></div>
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/css3.png"/><span>CSS</span></div>
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/><span>JavaScript</span></div>
+                <div class="tech"><img src="https://img.icons8.com/ios/50/000000/react-native--v2.png"/></i><span>React</span></div>
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/bootstrap.png"/><span>Bootstrap</span></div>
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/nodejs.png"/><span>Node</span></div>
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/c-programming.png"/></i><span>C</span></div>
+                <div class="tech"><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/></i><span>C++</span></div>
+            </div>
         </div>
-    
+
+
+    </section> <!-- about section end -->
+
+    <section class="skills" id="skills">
+        <!-- skills section start -->
+        <div class="title white">
+            <h2>PROJECTS</h2>
+        </div>
+
         <div class="content">
-    
-            <div class="skillsbox"> 
-                <h2>Project 1</h2>
-                <div class="image first"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit natus itaque molestiae
-                    eum repudiandae quia.</p>
+
+            <div class="skillsbox" data-aos="fade-right">
+                <h2>MemoryBay</h2>
+                <div class="image first">
+                    <img class="image" src="img/memorybay.png" alt="memorybaypic"/>
+                </div>
+                <p>A simple web based application enabling people to document personal stories to uplift the mood of
+                    other people</p>
             </div>
-    
-            <div class="skillsbox">
-                <h2>Project 2</h2> 
-                <div class="image second"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit natus itaque molestiae
-                    eum repudiandae quia.</p>
+
+            <div class="skillsbox" data-aos="fade-left">
+                <h2>Expense Manager</h2>
+                <div class="image second">
+                    <img class="image" src="img/expense.png" alt="expensepic"/>
+                </div>
+                <p>A simple web application which enables people to keep a track of their expenses and earnings</p>
             </div>
-    
-            <div class="skillsbox"> 
-                <h2>Project 3</h2>
-                <div class="image third"></div>
-                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit natus itaque molestiae
-                    eum repudiandae quia.</p>
+
+            <div class="skillsbox" data-aos="fade-right">
+                <h2>Amazon Clone</h2>
+                <div class="image third">
+                    <img class="image" src="img/amazon.png"  alt="amazonpic" />
+                </div>
+                <p>A front end based Amazon cloned webapp hosted in firebase</p>
             </div>
-    
-            <div class="skillsbox">
-                <h2>Project 4</h2> 
-                <div class="image fourth"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit natus itaque molestiae
-                    eum repudiandae quia.</p>
-            </div>
-    
-            <div class="skillsbox">
-                <h2>Project 5</h2>
-                <div class="image fifth"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit natus itaque molestiae
-                    eum repudiandae quia.</p>
-            </div>
-    
-            <div class="skillsbox"> 
-                <h2>Project 6</h2>
-                <div class="image sixth"></div>
-                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit natus itaque molestiae
-                    eum repudiandae quia.</p>
+
+            <div class="skillsbox" data-aos="fade-left">
+                <h2>Todo List</h2>
+                <div class="image fourth">
+                    <img class="image" src="img/todo.png"  alt="todopic" />
+                </div>
+                <p>A dynamic todo list enabling users to add, delete and filter their daily activities</p>
             </div>
         </div>
     </section>
-    
-    <section class="contact" id="contact">  <!-- contact start -->
-    
+
+    <section class="contact" id="contact">
+        <!-- contact start -->
+
         <div class="title white">
             <h2>Contact</h2>
         </div>
-    
+
         <div class="form">
             <div class="row">
                 <div class="col50">
                     <input type='text' name="" placeholder='first name'>
                 </div>
-    
+
                 <div class="col50">
                     <input type='text' name="" placeholder='Last name'>
                 </div>
             </div>
-    
+
             <div class="row">
                 <div class="col50">
                     <input type='text' name="" placeholder='email'>
                 </div>
-    
+
                 <div class="col50">
                     <input type='text' name="" placeholder='contact no'>
                 </div>
             </div>
-    
+
             <div class="row">
                 <div class="col100">
                     <textarea placeholder='message'></textarea>
                 </div>
             </div>
-    
+
             <div class="row">
                 <div class="col100">
                     <input type='submit' value='send'>
                 </div>
             </div>
         </div>
-    
+
     </section>
 
     <div class='container'>
@@ -152,22 +160,32 @@
         <section class='img2'></section>
         <section class='img3'>
             <ul class='sci'>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-                <a href="#"><i class="fa fa-envelope"></i></a>
-            </ul>  
+                <a href="https://www.linkedin.com/in/charu-khemka-3661a51b8/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/charu1172"><i class="fa fa-github"></i></a>
+                <a href="charu31khemka@gmail.com"><i class="fa fa-envelope"></i></a>
+            </ul>
         </section>
-    
+
         <div class="sidebar">
             <ul class="menu">
                 <li><a href="#home" onclick="togglemenu();">HOME</a></li>
                 <li><a href="#about" onclick="togglemenu();">ABOUT</a></li>
-                <li><a href="#skills" onclick="togglemenu();">WORK</a></li>
+                <li><a href="#skills" onclick="togglemenu();">PROJECTS</a></li>
                 <li><a href="#contact" onclick="togglemenu();">CONTACT</a></li>
             </ul>
         </div>
     </div>
 
     <script src='script.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded..');
+        });
+    </script>
+    <script>
+         AOS.init();   
+    </script>
 </body>
 </html>
